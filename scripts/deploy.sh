@@ -1,5 +1,13 @@
 #!/bin/bash
 
+### Some things are still to be done here.
+# TODO: After configuring Auth0, we need to update the Auth0 configuration in the keep-api service.
+# TODO: After configuring Auth0, we need to update the Auth0 configuration in the keep-ui vercel deployment.
+# TODO: We need to create Management API keys for the Auth0 tenant, and add it to the keep-api service.
+# TODO: We need to create a few more DNS records in Cloudflare and connect them:
+# 1. auth.COMPANY_NAME.keephq.dev and connect it to the Auth0 tenant.
+# 2. COMPANY_NAME.keephq.dev and connect it to the keep-ui Vercel deployment.
+
 # Function to print help
 print_help() {
     echo "Usage: $0 [options]"
